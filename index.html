@@ -4,9 +4,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Mixer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    
+    <div class="header">
+        <div id="sk1">
+          <img src="img/mnbg.png" alt="Speaker">
+        </div>
+      </div>
+      <div
+        id="div2"
+        ondrop="drop(event)"
+        ondragover="allowDrop(event)"
+        class="player"
+      ></div>
+      <div class="player-text">Music Mixer</div>
+      <div class="instruments-tray">
+        <table>
+          <tr>
+            <td>
+              <span draggable="true" ondragstart="drag(event)" id="drag1">
+                Drum
+              </span>
+            </td>
+            <td>
+              <span draggable="true" ondragstart="drag(event)" id="drag2">
+                Guitar
+              </span>
+            </td>
+            <td>
+              <span draggable="true" ondragstart="drag(event)" id="drag3">
+                Shaker
+              </span>
+            </td>
+            <td>
+              <span draggable="true" ondragstart="drag(event)" id="drag4">
+                Piano
+              </span>
+            </td>
+            <td>
+              <span draggable="true" ondragstart="drag(event)" id="drag5">
+                Funny-Song
+              </span>
+            </td>
+            <td>
+              <span draggable="true" ondragstart="drag(event)" id="drag6">
+                xyaloPhone
+              </span>
+            </td>
+            <td rowspan="2">
+              <button onclick="func()" class="btn">Play</button>
+              <!--button onclick="pauseaudio()" class="btn">Pause</button-->
+              <button onclick="reset()" class="btn">Reset</button>
+            </td>
+          </tr>
+          <tr>
+            <td><img class="drum" src="img/drm.png" alt="drum" ></td>
+            <td><img class="guitar" src="img/gtr.png" alt="guitar" ></td>
+            <td><img class="Shaker" src="img/sha.png" alt="Shaker" ></td>
+            <td><img class="piano" src="img/pia.png" alt="piano" ></td>
+            <td><img class="mike" src="img/mi.png" alt="mike" ></td>
+            <td><img class="xyaloPhone" src="img/xyalo.png" alt="xyaloPhone"></td>
+          </tr>
+        </table>
+      </div>
+      <script src="js/scripts.js"></script>
 </body>
 </html>
