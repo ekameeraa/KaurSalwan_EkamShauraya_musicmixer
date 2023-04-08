@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Mixer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/style.css" />
-    <script src="js/scripts.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <div class="header">
       <div id="sk1">
-        <img src="img/mnbg.png" alt="Speaker" />
+        <img src="img/mnbg.png" alt="Speaker">
       </div>
     </div>
     <div
@@ -28,7 +25,7 @@
     ></div>
     <div class="player-text">Music Mixer</div>
     <div class="instruments-tray">
-      <table border="1">
+      <table>
         <tr>
           <td>
             <span draggable="true" ondragstart="drag(event)" id="drag1">
@@ -67,14 +64,15 @@
           </td>
         </tr>
         <tr>
-          <td><img class="" src="img/drm.png" alt="" /></td>
-          <td><img class="" src="img/gtr.png" alt="" /></td>
-          <td><img class="" src="img/sha.png" alt="" /></td>
-          <td><img class="" src="img/pia.png" alt="" /></td>
-          <td><img class="" src="img/mi.png" alt="" /></td>
-          <td><img class="" src="img/xyalo.png" alt="" /></td>
-        </tr>
+          <td><img class="drum" src="img/drm.png" alt="drum" ></td>
+          <td><img class="guitar" src="img/gtr.png" alt="guitar" ></td>
+          <td><img class="Shaker" src="img/sha.png" alt="Shaker" ></td>
+          <td><img class="piano" src="img/pia.png" alt="piano" ></td>
+          <td><img class="mike" src="img/mi.png" alt="mike" ></td>
+          <td><img class="xyaloPhone" src="img/xyalo.png" alt="xyaloPhone"></td>
+         </tr>
       </table>
     </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
