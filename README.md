@@ -5,7 +5,7 @@ Interactive Music Mixer
 TODO: We are going to do a new project where we are going to play a music with drag and drop technique taught in class by using java script.
 
 ## Usage
-TODO: To play or reset the music: You need to select the text of the instruments which is at the top of the images of the instruments and drag to  the music mixer above and drop in it. Next, you have to click on the buttons for play or reset. Finally it will work.
+TODO: To play or reset the music: You need to select the text of the instruments which is at the top of the images of the instruments and drag to  the music mixer above and drop in it. Next, you have to click on the buttons for play or reset. Finally it will work properly now.
 
 ## Contributing:
 1. Fork it!
